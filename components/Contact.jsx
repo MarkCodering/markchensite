@@ -11,7 +11,7 @@ const Contact = () => {
         </h2>
         <p className="text-sm md:text-md font-normal lg:text-lg xl:text-lg ">
           If you have any queries or would like to discuss potential
-          opportunities, please don&apos;t hesitate to reach out to me using
+          opportunities, please don't hesitate to reach out to me using
           given links.
         </p>
         <div className="grid grid-cols-2 text-[0.7rem] md:text-[0.85rem] lg:text-base gap-2 md:gap-3 lg:gap-4">
