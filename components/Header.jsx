@@ -3,23 +3,19 @@ import { useState, useEffect, useRef } from "react";
 
 import { useRouter } from "next/router";
 import { useTheme } from "next-themes";
-import Image from "next/image";
 import Link from "next/link";
 
 import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
-
-import pranjal_header_black from "@/public/pranjal-header-black.svg";
-import pranjal_header_white from "@/public/pranjal-header-white.svg";
 
 const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();
   const router = useRouter().asPath;
   const [mounted, setMounted] = useState(false);
   let Links = [
-    { name: "Timeline", link: "/timeline" },
-    { name: "Works", link: "/work" },
     { name: "About", link: "/about" },
-    { name: "Tech", link: "/tech" },
+    //{ name: "Research", link: "/research" },
+    //{ name: "Ventures", link: "/ventures" },
+    //{ name: "Newsletter", link: "/newsletter" },
   ];
   const [isScrolled, setIsScrolled] = useState(false);
   let [open, setOpen] = useState(false);
@@ -82,7 +78,7 @@ const Header = () => {
             {currentTheme === "dark" ? (
               <div className="text-white">Mark Chen</div>
             ) : (
-              <div className="text-white">Mark Chen</div>
+              <div className="text-black">Mark Chen</div>
             )}
           </Link>
         </div>

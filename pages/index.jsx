@@ -4,15 +4,10 @@ import Head from "next/head";
 import Image from "next/image";
 
 import Contact from "@/components/Contact";
-import Experience from "@/components/Experience";
 
 import { BsArrowUpRight } from "react-icons/bs";
 
-import Avatar_Black from "@/public/Avatar-black.svg";
 import MarkImage from "@/public/mark.jpg";
-import Avatar_White from "@/public/Avatar-white.svg";
-import BooBlack from "@/public/boo-black.svg";
-import BooWhite from "@/public/boo-white.svg";
 import Link from "next/link";
 
 export default function Home() {
@@ -37,8 +32,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Mark Chen</title>
-        <link rel="icon" href="/Avatar-white.svg" />
+        <title>Mark Chen - Iterative Builder</title>
+        <link rel="icon" href="/mark.jpg" className="rounded-full" />
       </Head>
       <div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
         <div className="lg:h-screen 2xl:h-max max-w-[90rem] mx-auto">
@@ -52,7 +47,7 @@ export default function Home() {
             />
             <div className="flex flex-col ml-4">
               <h2 className="flex sm:text-2xl md:text-2xl lg:text-2xl">
-                <span className="font-semibold">Mark Chen</span>
+                <span className="font-semibold">Mark Chen - Founder of Mindify AI</span>
               </h2>
               <h3>
                 <Link
@@ -68,28 +63,20 @@ export default function Home() {
           </div>
           <div className="mt-12 text-base md:text-xl lg:text-xl xl:text-xl 2xl:text-xl">
             <p className="sm:leading-6 md:leading-6 lg:leading-8">
-              Mark is a computer science student at the University of London's
-              international program. In addition to his undergraduate studies,
-              Mark is a tech entrepreneur building an AI solution company to
-              help more software engineers adopt more generative AI innovations
-              on time. Moreover, he is a research scientist working with
-              professors, students, and other top institutions in Taiwan to
-              advance machine intelligence with quantum computing and innovative
-              algorithm design. He has published two papers with an m-index of 2
-              and more than 1600 article accesses in less than 6 months. Mark
-              primarily focuses on alignment research for LLM, engineering
-              practical quantum algorithms, and delivering on-demand courses for
-              engineers to learn more about generative AI. Mark's working and
-              engineering principle facilitates iterative and continuous growth
-              to build, learn, and iterate his products, solutions, and
-              scientific works.
+              Mark is a computer science student at the University of London and
+              a tech entrepreneur developing an AI solutions company to help
+              software engineers adopt generative AI innovations. He is also a
+              research scientist in Taiwan, collaborating with top institutions
+              to advance machine intelligence through quantum computing and
+              innovative algorithms. With an m-index of 2 and over 1600 article
+              accesses in under six months, Mark focuses on LLM alignment
+              research, practical quantum algorithms, and creating courses on
+              generative AI. His work emphasizes iterative and continuous growth
+              in his products, solutions, and scientific endeavors.
             </p>
           </div>
         </div>
-        <div className="mt-28 mx-auto">
-          <Experience />
-        </div>
-        <div className="mt-28 mx-auto ">
+        <div className="mt-12 mx-auto ">
           <Contact />
         </div>
       </div>

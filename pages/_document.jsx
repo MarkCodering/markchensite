@@ -9,16 +9,16 @@ export default function Document() {
     >
       <Head>
         {/* <title>pranjal ✦ developer, designer</title> */}
-        <meta name="title" content="pranjal ✦ developer, designer" />
-        <meta name="description" content="Developer // Designer // Weeb" />
+        <meta name="title" content="Mark Chen - Iterative Builder" />
+        <meta name="description" content="Build, Learn, and Iterate" />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://pranjalshikhar.vercel.app/" />
-        <meta property="og:title" content="pranjal ✦ developer, designer" />
+        <meta property="og:title" content="Mark Chen - Build, Learn, and Iterate" />
         <meta
           property="og:description"
-          content="Developer // Designer // Weeb"
+          content="Founder // Researcher // Builder"
         />
         <meta
           property="og:image"
@@ -33,7 +33,7 @@ export default function Document() {
         />
         <meta
           property="twitter:title"
-          content="pranjal ✦ developer, designer"
+          content="Mark Chen"
         />
         <meta
           property="twitter:description"
