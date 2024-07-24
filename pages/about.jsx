@@ -46,7 +46,6 @@ export default function About() {
               Build, Learn, and Iterate
             </p>
           </div>
-          <CategoryCard />
           <div className=" text-[0.92rem] text-base mx-12 font-light dark:text-white text-gray-900">
             <p className="mt-6 mb-4 font-normal">
               Tech entrepreneur with the mission to to push the frontier of
@@ -76,7 +75,7 @@ export default function About() {
                 {" "}
                 mark@mindifyai.dev
               </a>
-              </p>
+            </p>
           </div>
           <div className="flex mx-auto justify-center mt-16 select-none">
             <span className="font-black font-app text-2xl md:text-3xl align-text-bottom tracking-wider mx-3 md:mx-6">

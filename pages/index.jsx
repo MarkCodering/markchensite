@@ -32,12 +32,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Mark Chen - Iterative Builder</title>
+        <title>Mark Chen - Founder of Mindify AI</title>
         <link rel="icon" href="/mark.jpg" className="rounded-full" />
       </Head>
       <div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
         <div className="lg:h-screen 2xl:h-max max-w-[90rem] mx-auto">
-          <div className="flex flex-row justify-start items-center mt-20">
+          <div className="flex flex-row justify-center items-center mt-20">
             <Image
               src={currentTheme === "dark" ? MarkImage : MarkImage}
               alt="Mark Chen"
@@ -47,7 +47,9 @@ export default function Home() {
             />
             <div className="flex flex-col ml-4">
               <h2 className="flex sm:text-2xl md:text-2xl lg:text-2xl">
-                <span className="font-semibold">Mark Chen - Founder of Mindify AI</span>
+                <span className="font-semibold">
+                  Mark Chen - Founder of Mindify AI
+                </span>
               </h2>
               <h3>
                 <Link
@@ -61,7 +63,7 @@ export default function Home() {
               </h3>
             </div>
           </div>
-          <div className="mt-12 text-base md:text-xl lg:text-xl xl:text-xl 2xl:text-xl">
+          <div className="mt-12 mb-12 font-light dark:text-white text-gray-900 px-12">
             <p className="sm:leading-6 md:leading-6 lg:leading-8">
               Mark is a computer science student at the University of London and
               a tech entrepreneur developing an AI solutions company to help
@@ -75,8 +77,6 @@ export default function Home() {
               in his products, solutions, and scientific endeavors.
             </p>
           </div>
-        </div>
-        <div className="mt-12 mx-auto ">
           <Contact />
         </div>
       </div>

@@ -13,9 +13,9 @@ const Header = () => {
   const [mounted, setMounted] = useState(false);
   let Links = [
     { name: "About", link: "/about" },
-    //{ name: "Research", link: "/research" },
-    //{ name: "Ventures", link: "/ventures" },
-    //{ name: "Newsletter", link: "/newsletter" },
+    { name: "Newsletters", link: "/newsletters" },
+    { name: "YouTube", link: "https://www.youtube.com/channel/UCkPWNhP80z41tEDvuCMSfGQ" },
+    { name: "Contact", link: "/contact" },
   ];
   const [isScrolled, setIsScrolled] = useState(false);
   let [open, setOpen] = useState(false);
@@ -72,13 +72,13 @@ const Header = () => {
         open && "dark:bg-[#000] bg-opacity-100"
       } drop-shadow-xs backdrop-blur-sm top-4 sticky rounded-2xl`}
     >
-      <div className="flex justify-between md:space-x-10 lg:space-x-12 xl:space-x-16 md:flex items-center place-items-center md:justify-center py-3 md:px-10 px-8">
+      <div className="flex justify-between md:space-x-10 lg:space-x-12 xl:space-x-16 md:flex items-center place-items-center md:justify-center py-3 md:px-10 px-12">
         <div className="select-none order-2 md:order-1 cursor-pointer flex items-center text-gray-800">
           <Link href={"/"} className="">
             {currentTheme === "dark" ? (
-              <div className="text-white">Mark Chen</div>
+              <div className="text-white">Mark</div>
             ) : (
-              <div className="text-black">Mark Chen</div>
+              <div className="text-black">Mark</div>
             )}
           </Link>
         </div>
