@@ -14,57 +14,41 @@ export default function Document() {
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://pranjalshikhar.vercel.app/" />
-        <meta property="og:title" content="Mark Chen - Build, Learn, and Iterate" />
+        <meta property="og:url" content="https://www.markchen.io/" />
+        <meta
+          property="og:title"
+          content="Mark Chen - Build, Learn, and Iterate"
+        />
         <meta
           property="og:description"
           content="Founder // Researcher // Builder"
         />
-        <meta
-          property="og:image"
-          content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/pranjalshikhar_i8znzx.jpg"
-        />
+        <meta property="og:image" content="/mark.jpg" />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:url"
-          content="https://pranjalshikhar.vercel.app/"
-        />
-        <meta
-          property="twitter:title"
-          content="Mark Chen"
-        />
+        <meta property="twitter:url" content="https://www.markchen.io/" />
+        <meta property="twitter:title" content="Mark Chen" />
         <meta
           property="twitter:description"
-          content="Developer // Designer // Weeb"
+          content="Build, Learn, and Iterate"
         />
-        <meta
-          property="twitter:image"
-          content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/pranjalshikhar_i8znzx.jpg"
-        />
+        <meta property="twitter:image" content="/mark.jpg" />
 
         {/* whatsapp */}
-        <meta property="og:site_name" content="pranjal ✦ developer, designer" />
-        <meta property="og:title" content="pranjal ✦ developer, designer" />
-        <meta
-          property="og:description"
-          content="Developer // Designer // Weeb"
-        />
-        <meta
-          property="og:image"
-          itemprop="image"
-          content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/pranjalshikhar_i8znzx.jpg"
-        />
+        <meta property="og:site_name" content="Mark Chen" />
+        <meta property="og:title" content="Mark Chen" />
+        <meta property="og:description" content="Build, Learn, and Iterate" />
+        <meta property="og:image" itemprop="image" content="/mark.jpg" />
         <meta property="og:type" content="website" />
 
         {/* canonical links */}
-        <link rel="canonical" href="https://pranjalshikhar.vercel.app/" />
+        <link rel="canonical" href="https://www.markchen.io" />
         <link
           rel="search"
           href="/opensearch.xml"
           type="application/opensearchdescription+xml"
-          title="pranjal ✦ developer, designer"
+          title="Build, Learn, and Iterate"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
